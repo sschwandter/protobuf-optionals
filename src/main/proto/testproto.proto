@@ -1,0 +1,11 @@
+syntax = "proto3";
+package org.shockfrosted.protobuf_optionals;
+
+message MyMessage {
+    MySubMessage message = 1;
+}
+
+
+message MySubMessage {
+    int64 myInt = 1;
+}
